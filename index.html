@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Atef Zoiaidi</title>
+  <meta charset="UTF-8">
+  <link href='http://fonts.googleapis.com/css?family=Tenor Sans' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  
+  <script>
+
+$(document).ready(function(){
+
+
+
+   $('[data-toggle="tooltip"]').tooltip(); 
+		
+  
+
+$(".navbar").on("activate.bs.scrollspy", function () {
+         
+        var currentItem = $(".nav li.active > a").text();
+		if(currentItem!="Home"){
+		$(".navbar-default").css("background-color","rgba(208,208,201,0.6)");
+		
+		 
+		}else{
+		$(".navbar-default").css("background-color","transparent");
+		}
+        $("#bt-home").removeClass("noborder-bottom");
+    })
+	
+//slid the text
+$("#home *").addClass("slide");
+
+
+
+ // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage'],button a,#contact a").on('click', function(event) {
+
+   // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+//fin smooth scrolling
+
+$("#bt-About").hover(function(){
+
+$("#bt-home").addClass("noborder-bottom");
+});
+
+//animation slide
+
+$(window).scroll(function() {
+
+
+
+
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+	
+      $(this).addClass("slide");
+    }
+  });
+  
+  
+});
+
+    
+
+});
+
+</script>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+<section id="bgsection">
+<!---header-->
+<header>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#list">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+
+<a class="navbar-brand" href="#"><img src="brand-icon.png" alt="Atef Zoiaidi" width="50"></a>
+</div>
+<div class="collapse navbar-collapse"id="list">
+<ul class="nav navbar-nav">
+<li id="bt-home"><a href="#home">Home</a></li>
+<li id="bt-About"><a href="#about">About</a></li>
+<li id="bt-ontact"><a href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+<!--/header-->
+<!--home-->
+  <div id="home" class="container-fluid" >
+
+  <div>
+<p class="slideanim">Be prepared, work hard, and hope for a little luck.<br/>
+ Recognize that the harder you work and the better prepared
+ you are,<br/> the more luck you might have. 
+</p>
+<p id="auteur"class="slideanim" >Ed Bradley</p>
+</div>
+<div>
+<button  class="button"><a href="#about"  ><span id="icon-sui">Who Am I</span></a> </button>
+</div>
+</div>
+<!--/home-->
+</section >
+<!--About--->
+   <div id="about"class="container-fluid">
+     <div class="row">
+	      <div class="col-md-6 col-xs-12">
+             <img id="imgme" src="photo.jpg" class=" slideanim img-thumbnail img-responsive center-block  "alt="Is Me" width="300"height="300">
+		  </div>
+		  <div id="desc"class="col-md-6 col-xs-12">
+		  
+             
+			 <p class="slideanim"><b>Hello,my name Atef </b><br>
+			 <b>Web|Mobile developer based in Tunisie.<br><br>
+			 I've been studying Computer Science in Higher Institute of Management of Gabes (I.S.G),
+			 <br>2015 i Obtained  my diploma after that
+			 decide to prepare for java certification and i obtained 3 certification
+             Oracle Certified Associate Java SE 7 Programmierer,<br>
+             Oracle Certified Professional, Java SE 7 Programmer,<br>
+             Oracle Certified Expert, Java Platform, EE 6 Web Component Developer.	<br><br>
+			  I have some experience building custom responsive websites with HTML5, CSS3, and JS/jQuery,
+			  as well as experience with front end frameworks, Boostrap, AngularJs and expeience as android Application developer.<br><br>
+			  Currently i try to make my own experience to build some Web Application or preferably get hire from some company.</b><br>
+			  
+
+			 </p>
+		 </div>
+      </div>
+   </div>
+<!--/About-->
+<div id="skill" class="container-fluid ">
+<div class="title-skill center-block">
+
+<span>  
+
+ <p>The developer Skills <img src="cafe-code.png"> </p>
+ 
+</span>
+
+</div>
+
+<div id="icongroup"class="row center-block">
+<div class="col-md-2 col-xs-4">
+<div  class="thumbnail border-circle slideanim iconskill">
+       <a href="#"  >
+          <img src="HTML.png"  class="img-responsive icon-skill" style="width:100% ;padding-top ;padding:5px"
+		  data-toggle="tooltip" data-placement="top" title="Advanced level in HTML5">
+          
+        </a>
+      </div>
+
+
+</div>
+
+<div class="col-md-2 col-xs-4">
+<div  class="thumbnail border-circle slideanim iconskill">
+       <a href="#"  >
+          <img src="css.png" alt="CSS" class="img-responsive icon-skill" style="width:100% ;padding:5px"
+		  data-toggle="tooltip" data-placement="top" title="Advanced level in CSS3">
+         
+        </a>
+      </div>
+</div>
+<div class="col-md-2 col-xs-4">
+<div  class="thumbnail border-circle slideanim iconskill">
+       <a href="#"  >
+          <img src="JS.png"  class="img-responsive icon-skill" style="width:100% ;padding:5px"
+		  data-toggle="tooltip" data-placement="top" title="Advanced level in JavaScript">
+          
+        </a>
+      </div>
+</div>
+<div class="col-md-2 col-xs-4">
+<div  class="thumbnail border-circle slideanim iconskill">
+       <a href="#"  >
+          <img src="JAVA.png"  class="img-responsive icon-skill" style="width:100% ;padding:5px"
+		  data-toggle="tooltip" data-placement="top" title="Advanced level in Java">
+          
+        </a>
+      </div>
+</div>
+<div class="col-md-2 col-xs-4 ">
+<div  class="thumbnail border-circle slideanim iconskill">
+       <a href="#"  >
+          <img src="PHP.png"  class="img-responsive icon-skill" style="width:100% ;padding:5px"
+		  data-toggle="tooltip" data-placement="top" title="Advanced level in PHp">
+          
+        </a>
+      </div>
+	
+</div>
+<div class="col-md-2 col-xs-4 ">
+
+  <div  class="thumbnail border-circle slideanim iconskill">
+       <a href="#"  >
+          <img src="JQUERY.png" class="img-responsive icon-skill" style="width:100% ;padding:5px"
+		  data-toggle="tooltip" data-placement="top" title="Advanced level in Jquery">
+          
+        </a>
+      </div>
+	  </div>
+	  
+	  
+<div class="col-md-2 col-xs-4">
+  <div  class="thumbnail border-circle slideanim iconskill">
+       <a href="#"  >
+          <img src="BOOTSTRAP.png" class="img-responsive icon-skill" style="width:100% ;padding:5px"
+		  data-toggle="tooltip" data-placement="top" title="Advanced level in BOOTSTRAP">
+          
+        </a>
+      </div>
+	  </div>
+	  
+<div class="col-md-2 col-xs-4">
+  <div  class="thumbnail border-circle slideanim iconskill">
+       <a href="#"  >
+          <img src="ANGULAR.png" class="img-responsive icon-skill" style="width:100% ;padding:5px"
+		  data-toggle="tooltip" data-placement="top" title="Basic level in AngularJs">
+          
+        </a>
+      </div>
+	  </div>
+	  
+<div class="col-md-2 col-xs-4">
+  <div  class="thumbnail border-circle slideanim iconskill">
+       <a href="#"  >
+          <img src="SQL.png" class="img-responsive icon-skill" style="width:100% ;padding:5px"
+		  data-toggle="tooltip" data-placement="top" title="Advanced level in SQL">
+          
+        </a>
+      </div>
+	  </div>
+	  
+<div class="col-md-2 col-xs-4">
+  <div class="thumbnail border-circle slideanim iconskill">
+       <a href="#"  >
+          <img src="ANDROID.png" class="img-responsive icon-skill" style="width:100% ;padding:10px"
+		  data-toggle="tooltip" data-placement="top" title="Advanced level in ANDROID">
+          
+        </a>
+      </div>
+	  </div>
+	  <div class="col-md-2 col-xs-4 ">
+  <div   class="thumbnail border-circle slideanim iconskill ">
+       <a href="#"  >
+          <img src="JAVAEE.png" class="img-responsive icon-skill" style="width:100% ;padding:5px"
+		  data-toggle="tooltip" data-placement="top" title="Advanced level in JAVAEE">
+          
+        </a>
+      </div>
+	  </div>
+	  
+	  	  <div class="col-md-2 col-xs-4 ">
+  <div class="thumbnail border-circle slideanim iconskill ">
+       <a href="#"  >
+          <img src="MYSQL.png" class="img-responsive icon-skill"  style="width:100% ;padding:5px"
+		  data-toggle="tooltip" data-placement="top" title="Advanced level in MYSQL">
+          
+        </a>
+      </div>
+	  </div>
+<!--/row-->	  
+</div>
+</div>
+
+<!--Work-->
+<div id="work" class="container-fluid ">
+<div class="row center-block">
+<div class="title-skill center-block">
+
+<span>  
+
+ <p> Project <img src="icon-work.png"> </p>
+ 
+</span>
+
+</div>
+
+<div class="col-md-3 col-xs-6">
+<div id="img1" class="thumbnail iconwork">
+       
+          <img src="work1.png" class="img-responsive img-block" style="width:100% ;padding:2px">
+         
+		<div class="img-over">
+		<div class="text"><p>Build a Random Quote Machine<br></p>
+		<a href="http://codepen.io/atefzoiaidi/full/mRGeEJ/"target="_blank">Here Link</a></div>
+		
+		</div>
+      </div>
+</div>
+<div class="col-md-3 col-xs-6">
+<div id="img1" class="thumbnail iconwork">
+     
+          <img src="work2.png" class="img-responsive img-block"alt="Mysql" style="width:100% ;padding:2px">
+          <div class="img-over">
+		<div class="text"><p>Build a Wikipedia Viewer <br></p>
+		<a href="http://codepen.io/atefzoiaidi/full/oYOjNm/"target="_blank">Here Link</a></div>
+		
+		</div>
+        
+      </div>
+</div>
+<div class="col-md-3 col-xs-6">
+<div id="img1" class="thumbnail iconwork">
+       
+          <img src="work3.png" class="img-responsive img-block" style="width:100% ;padding:2px">
+          <div class="img-over">
+		<div class="text"><p>Build a Android Application<br></p>
+		</div>
+		
+		</div>
+        
+      </div>
+</div>
+<div class="col-md-3 col-xs-6">
+<div id="img1" class="thumbnail iconwork">
+       
+          <img src="weather-app.png" class="img-responsive img-block" style="width:100% ;padding:2px">
+          <div class="img-over">
+		<div class="text"><p>Build a Weather App<br></p>
+		</div>
+		
+		</div>
+        
+      </div>
+</div>
+
+</div>
+
+</div>
+<!--/work-->
+<div id="contact" class="container-fluid ">
+ <a href="#home" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+<h1>Get In Touch<h1>
+
+
+<div class="row">
+<div class="col-md-12">
+<div class="thumbnail icon-contact">
+       <a href="mailto:atef.zoiaidi@gmail.com" target="_blank"  >
+          <img src="gmail.png" class="img-responsive"alt="Mysql" style="width:100% ">
+          
+        </a>
+      </div>
+
+
+<div class="thumbnail icon-contact ">
+       <a href="https://github.com/AtefZoiaidi" target="_blank" >
+          <img src="github.png" class="img-responsive"alt="Mysql" style="width:100% ">
+          
+        </a>
+      </div>
+</div>
+<div class="owner">
+<p> Designed by Atef Zoiaidi</p>
+
+</div>
+
+</div>
+
+</div>
+</body>
+</html>
