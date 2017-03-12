@@ -4,7 +4,7 @@ body{
 padding:0;
 margin:0;
 color : white;
-font-family: 'Tenor Sans';
+font-family: 'Tenor Sans', Arial, Helvetica, sans-serif;;
 }
 /* progress bar  */
 .hide{
