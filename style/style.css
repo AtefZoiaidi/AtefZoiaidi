@@ -19,7 +19,7 @@ font-family: 'Tenor Sans';
 
 /*Section  tag  caracter */	
 #bgsection{
-background-image:url("imgback1.png");
+background-image:url("img/imgback1.png");
 background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -116,7 +116,7 @@ padding-bottom:40px;
 /*about div  caracter */
 #about{
 color:white;
-	background-image:url("back-div-about.png");
+	background-image:url("img/back-div-about.png");
 	background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -147,7 +147,7 @@ background-color:transparent;
 
 /*Skill div  caracter */
 #skill{
-background-image:url("back-div-skill.png");
+background-image:url("img/back-div-skill.png");
 background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -206,7 +206,7 @@ padding-top:40px;
 }
 
 #work{
-	background-image:url("back-div-work.png");
+	background-image:url("img/back-div-work.png");
 	background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -368,7 +368,7 @@ text-align:center;
 	
 }
 .button span:after{
-	content:url('suiv.png');
+	content:url('img/suiv.png');
 	position:absolute;
 	opacity:0;
 	padding:0;
@@ -477,7 +477,7 @@ text-align:center;
 			        }
 			  
 			  #bgsection{
-                   background-image:url("imgback-480.png");
+                   background-image:url("img/imgback-480.png");
                    background-repeat:no-repeat;
                    -webkit-background-size:cover;
                    -moz-background-size:cover;
@@ -497,7 +497,7 @@ text-align:center;
 					
 					#about{
                          color:white;
-	                      background-image:url("back-div-about-480.png");
+	                      background-image:url("img/back-div-about-480.png");
 	                      background-repeat:no-repeat;
                           -webkit-background-size:cover;
                            -moz-background-size:cover;
@@ -509,7 +509,7 @@ text-align:center;
 					         }
 							 #work{
 								 
-								background-image:url("back-div-work-480.png");
+								background-image:url("img/back-div-work-480.png");
 	                            background-repeat:no-repeat;
                                 -webkit-background-size:cover;
                                 -moz-background-size:cover;
