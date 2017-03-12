@@ -3,11 +3,7 @@
 <head>
   <title>Atef Zoiaidi</title>
   <meta charset="UTF-8">
-<<<<<<< HEAD
-  <link href='//fonts.googleapis.com/css?family=Tenor Sans' rel='stylesheet'>
-=======
-  <link href="//fonts.googleapis.com/css?family=Tenor Sans" rel="stylesheet">
->>>>>>> 5fac86c04d06e8750b7aaa87f7cb49330d0d9557
+  <link href='http://fonts.googleapis.com/css?family=Tenor Sans' rel='stylesheet'>
   <meta name="viewport" content="width=device-width, initial-scale=1">
    
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -18,10 +14,13 @@
 
   
   <script>
+  
+   $(window).bind("load", function () {
+        $('#circularG').fadeOut(100);
+    });
 
 $(document).ready(function(){
-
-$("#circularG").addClass("hide");
+//$("#circularG").addClass("hide");
 
    $('[data-toggle="tooltip"]').tooltip(); 
 		
@@ -334,11 +333,7 @@ $(window).scroll(function() {
 <div class="col-md-3 col-xs-6">
 <div id="img1" class="thumbnail iconwork">
        
-<<<<<<< HEAD
           <img src="icon/work1.	PNG" class="img-responsive img-block" style="width:100% ;padding:2px">
-=======
-          <img src="icon/work1.PNG" class="img-responsive img-block" style="width:100% ;padding:2px">
->>>>>>> 5fac86c04d06e8750b7aaa87f7cb49330d0d9557
          
 		<div class="img-over">
 		<div class="text"><p>Build a Random Quote Machine<br></p>
@@ -350,11 +345,7 @@ $(window).scroll(function() {
 <div class="col-md-3 col-xs-6">
 <div id="img1" class="thumbnail iconwork">
      
-<<<<<<< HEAD
           <img src="icon/work2.PNG" class="img-responsive img-block"alt="Mysql" style="width:100% ;padding:2px">
-=======
-          <img src="icon/work2.PNG" class="img-responsive img-block" style="width:100% ;padding:2px">
->>>>>>> 5fac86c04d06e8750b7aaa87f7cb49330d0d9557
           <div class="img-over">
 		<div class="text"><p>Build a Wikipedia Viewer <br></p>
 		<a href="http://codepen.io/atefzoiaidi/full/oYOjNm/"target="_blank">Here Link</a></div>
@@ -396,7 +387,7 @@ $(window).scroll(function() {
  <a href="#home" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-<h1>Get In Touch<h1>
+<p>Get In Touch<p/>
 
 
 <div class="row">
@@ -411,7 +402,7 @@ $(window).scroll(function() {
 
 <div class="thumbnail icon-contact ">
        <a href="https://github.com/AtefZoiaidi" target="_blank" >
-          <img src="icon/github.png" class="img-responsive"alt="Mysql" style="width:100% ">
+          <img src="icon/github.png" alt="Mysql" style="width:100% ">
           
         </a>
       </div>

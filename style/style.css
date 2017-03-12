@@ -4,7 +4,7 @@ body{
 padding:0;
 margin:0;
 color : white;
-font-family: 'Tenor Sans', Arial, Helvetica, sans-serif;;
+font-family: 'Tenor Sans';
 }
 /* progress bar  */
 .hide{
@@ -280,7 +280,7 @@ padding-bottom:40px;
    font-family: 'Tenor Sans';
    text-align:center;
    font-size:30px;
-   padding-top:200px;
+   padding-top:250px;
    padding-bottom:200px;
 }
 #home p{
@@ -408,12 +408,14 @@ text-align:center
 }
 
 #work .title-skill img{
-	width:60px;
+	width:40px;
 	margin:0;
 	padding:0;
+	
     padding-left:10px;
 	padding-bottom:0;
 }
+
 .img-over{
 	 position: absolute;
   top: 0;
@@ -472,9 +474,10 @@ margin-bottom:10px;
 
 #contact{
 
-background-color:#bebdc2;
+background-color:rgba(64,27,233,0.5);
 color:white;
 text-align:center;
+font-size:25px;
 }
 #contact span{
 	padding-top:10px;
@@ -544,7 +547,7 @@ text-align:center;
 	padding-top:40px;
 	display:inline-block;
 	position:relative;
-	transition:0.5s;
+	transition:0.2s;
 	
 }
 .button span:after{
@@ -611,7 +614,12 @@ text-align:center;
 	
 	
 	
+	.nav.navbar-nav li {
+    
+	font-size:18px;
 	
+	
+}
 	
 	
 	
@@ -621,7 +629,8 @@ text-align:center;
          }
 		 
 		 .navbar-collapse{
-			 background-color:rgba(208,208,201,0.3); 
+			 background-color:rgba(0,0,0,0.5); 
+			 padding-bottom:5px;
 		 }
       .navbar-nav{
 	       padding-left:0px;
