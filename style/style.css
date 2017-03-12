@@ -518,5 +518,21 @@ text-align:center;
                                 background-position:center; 
 								padding-left:30px;
 							 }
+							 
+							 .text{
+	
+ 
+  font-size: 15px;
+  
+	
+}
+							 .text a{
+	text-decoration:none;
+	color:white;
+	font-size:10px;
+	
+	
+	
+}
 
 }
