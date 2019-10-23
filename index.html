@@ -1,419 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Atef Zoiaidi</title>
-  <meta charset="UTF-8">
-  <link href='//fonts.googleapis.com/css?family=Tenor Sans' rel='stylesheet'>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style/style.css">
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet"  type="text/css" href="style_templet_1.css">
+<body>
+<div class="fluid-container">
+    <div class="flex">
+      <div class="left box-shadow ">
+          <div class="row">
+              <div class="col-md-12">
+                  <span>Atef Zoiaidi</span>
+                <img src="1.jpg" class="mx-auto">
+                
+              </div>
+              <div class="col-md-12">
+                  <p><i class="fa fa-briefcase" aria-hidden="true"></i> Full stack  developer</p>
+                  <p><i class="fa fa-home" aria-hidden="true"></i> Cité jardin Ettahrir Batiment 4
+                    Appartement 95, Tunis.</p>
+                    <p><i class="fa fa-home" aria-hidden="true"></i> Bouatouch N°15 Elhamma-Gabes Tunisie</p>
+                    
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i> atef.zoiaidi@gmail.com</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> +216 55791882</p>
 
-  
-  <script>
-  
-   $(window).bind("load", function () {
-        $('#circularG').fadeOut(100);
-    });
+                    <hr>
 
-$(document).ready(function(){
+                    <p><i class="fa fa-certificate" aria-hidden="true"></i> <span class="skill">Compétences</span></p>
+                    <p>Java</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                      
+                    </div>
+                    <p>PHP </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">80%</div>
+                      
+                    </div>
+                    <p>Python </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                      
+                    </div>
+                    <p>JavaScript </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                      
+                    </div>
 
+                    <hr>
 
-   $('[data-toggle="tooltip"]').tooltip(); 
-		
-  
-
-$(".navbar").on("activate.bs.scrollspy", function () {
-         
-        var currentItem = $(".nav li.active > a").text();
-		if(currentItem!="Home"){
-		$(".navbar-default").css("background-color","rgba(208,208,201,0.6)");
-		
-		 
-		}else{
-		$(".navbar-default").css("background-color","transparent");
-		}
-        $("#bt-home").removeClass("noborder-bottom");
-    })
-	
-//slid the text
-$("#home *").addClass("slide");
-
-
-
- // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage'],button a,#contact a").on('click', function(event) {
-
-   // Make sure this.hash has a value before overriding default behavior
-  if (this.hash !== "") {
-
-    // Prevent default anchor click behavior
-    event.preventDefault();
-
-    // Store hash
-    var hash = this.hash;
-
-    // Using jQuery's animate() method to add smooth page scroll
-    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 900, function(){
-
-      // Add hash (#) to URL when done scrolling (default click behavior)
-      window.location.hash = hash;
-      });
-    } // End if
-  });
-//fin smooth scrolling
-
-$("#bt-About").hover(function(){
-
-$("#bt-home").addClass("noborder-bottom");
-});
-
-//animation slide
-
-$(window).scroll(function() {
+                    <p><i class="fa fa-globe" aria-hidden="true"></i> <span class="skill">Langues</span></p>
 
 
+                    <p>Arabe </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+                      
+                    </div>
+                    <p>Anglais </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">B1</div>
+                      
+                    </div>
+
+                    <p>français </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">B1</div>
+                      
+                    </div>
+                    <p>Allemand </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">A1</div>
+                      
+                    </div>
 
 
-  $(".slideanim").each(function(){
-    var pos = $(this).offset().top;
-
-    var winTop = $(window).scrollTop();
-    if (pos < winTop + 600) {
-	
-      $(this).addClass("slide");
-    }
-  });
-  
-  
-});
-
-    
-
-});
-
-</script>
-</head>
-<body data-spy="scroll" data-target=".navbar">
-
-
-<div id="circularG">
-	<div id="circularG_1" class="circularG"></div>
-	<div id="circularG_2" class="circularG"></div>
-	<div id="circularG_3" class="circularG"></div>
-	<div id="circularG_4" class="circularG"></div>
-	<div id="circularG_5" class="circularG"></div>
-	<div id="circularG_6" class="circularG"></div>
-	<div id="circularG_7" class="circularG"></div>
-	<div id="circularG_8" class="circularG"></div>
-</div>
-
-<section id="bgsection">
-<!---header-->
-<header>
-<nav class="navbar navbar-default navbar-fixed-top">
-<div class="container-fluid">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#list">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-
-<a class="navbar-brand" href="#"><img src="icon/brand-icon.png" alt="Atef Zoiaidi" width="50"></a>
-</div>
-<div class="collapse navbar-collapse"id="list">
-<ul class="nav navbar-nav">
-<li id="bt-home"><a href="#home">Home</a></li>
-<li id="bt-About"><a href="#about">About</a></li>
-<li id="bt-ontact"><a href="#contact">Contact</a></li>
-</ul>
-</div>
-</div>
-</nav>
-</header>
-<!--/header-->
-<!--home-->
-  <div id="home" class="container-fluid" >
-
-  <div>
-<p class="slideanim">Be prepared, work hard, and hope for a little luck.<br/>
- Recognize that the harder you work and the better prepared
- you are,<br/> the more luck you might have. 
-</p>
-<p id="auteur"class="slideanim" >Ed Bradley</p>
-</div>
-<div>
-<button  class="button"><a href="#about"  ><span id="icon-sui">Who Am I</span></a> </button>
-</div>
-</div>
-<!--/home-->
-</section >
-<!--About--->
-   <div id="about"class="container-fluid">
-     <div class="row">
-	      <div class="col-md-6 col-xs-12">
-             <img id="imgme" src="icon/photo.jpg" class=" slideanim img-thumbnail img-responsive center-block  "alt="Is Me" width="300"height="300">
-		  </div>
-		  <div id="desc"class="col-md-6 col-xs-12">
-		  
-             
-			 <p class="slideanim"><b>Hello,my name Atef </b><br>
-			 <b>Web|Mobile developer based in Tunisie.<br><br>
-			 I've been studying Computer Science in Higher Institute of Management of Gabes (I.S.G),
-			 <br>2015 i Obtained  my diploma after that
-			 decide to prepare for java certification and i obtained 3 certification
-             Oracle Certified Associate Java SE 7 Programmierer,<br>
-             Oracle Certified Professional, Java SE 7 Programmer,<br>
-             Oracle Certified Expert, Java Platform, EE 6 Web Component Developer.	<br><br>
-			  I have some experience building custom responsive websites with HTML5, CSS3, and JS/jQuery,
-			  as well as experience with front end frameworks, Bootstrap, AngularJs and expeience as android Application developer.<br><br>
-			  Currently i try to make my own experience to build some Web Application or preferably get hire from some company.</b><br>
-			  
-
-			 </p>
-		 </div>
+                  </div>
+          </div>
       </div>
-   </div>
-<!--/About-->
-<div id="skill" class="container-fluid ">
-<div class="title-skill center-block">
+      <div class="right">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 box-shadow">
+                        <p><i class="fa fa-suitcase" aria-hidden="true"></i> <span class="work">Expérience professionnelle</span> </p>
+                        <p class="title">Full stask PHP/JAVA developer        <i class="fa fa-building" aria-hidden="true"></i> CSA International</p>
+                        <p> <ul>
+							<li>Créez une application Web: backend (Laravel) frontend (Angular 7, Bootstrap), puis migrez le backend vers django + elasticsearch deploy sur aws beanstalk.</li>
+                            <li>Créer une application Web: backend (Django + django-rest + spacy Traitement du langage naturel) frontend (Angular 7 + Angular Material)  deploy sur aws beanstalk.</li>
+							<li> Créer une application web: frontend (HTML, CSS, JQUERY, BOOTSTRAP) backend (laravel MYSQL).</li>
+                            <li> Créer une application web: frontend (HTML, CSS, JQUERY, BOOTSTRAP) backend (PHP, MYSQL).</li>
+							<li>Web scraping</li>
+                            <li>Maintenance et développement continus de correctifs de bug pour les applications Web existantes.</li>
+                            <li> Maintenance et développement continus de correctifs de bug  pour l'application mobiles existantes (Android).</li>
+                            <li> Maintenance et développement continus de correctifs de bug  pour l'application desktop existantes (JAVA-FX).</li>
+                            <li> Effectué toutes les méthodes de test et de dépannage et les résolutions documentées dans le système.</li>
+                        
+                        </ul>
+                    
+                        <hr>
 
-<span>  
 
- <p>The developer Skills <img src="icon/cafe-code.png"> </p>
- 
-</span>
+                      
+                        <p class="title">Développeur JAVA       <i class="fa fa-building" aria-hidden="true"></i> KRIZMA</p>
+                        <p> <ul>
+                          
+                            <li> Stage PFE dans la société KRIZMA située à Zarzis, Tunisie
+                                    . Créer une application mobile permet de gérer la communication entre les membres de l’entreprise utilisant les outils Android et le Cloud (PARSE).</li>
+                            
+                        
+                        </ul></p>
+                    
+                    
+                    </p>
+                    </div>
+                    <div class="col-xs-12 col-md-12 box-shadow">
+                        
+                            <p><i class="fa fa-certificate" aria-hidden="true"></i> <span class="work">Éducation</span> </p>
+                        <ul>    
+                            <li><p class="title"><i class="fa fa-building" aria-hidden="true"></i> Centre de formation TMI (Tunisie Micro Informatique)</p>
+                            <p><span class="date"><i class="fa fa-calendar-o" aria-hidden="true"></i>Mai 2016 </span></p>
+                            <p> Oracle Certified Expert, Java Platform, EE 6 Web Component Developer</p></li>
 
-</div>
+                            <hr>
 
-<div id="icongroup"class="row center-block">
-<div class="col-md-2 col-xs-4">
-<div  class="thumbnail border-circle slideanim iconskill">
-       <a href="#"  >
-          <img src="icon/HTML.png"  class="img-responsive icon-skill" style="width:100% ;padding-top ;padding:5px"
-		  data-toggle="tooltip" data-placement="top" title="Advanced level in HTML5">
-          
-        </a>
+                            <li><p class="title"><i class="fa fa-building" aria-hidden="true"></i> Centre de formation TMI (Tunisie Micro Informatique)</p>
+                            <p><span class="date"><i class="fa fa-calendar-o" aria-hidden="true"></i>Mars 2016 </span></p>
+                            <p> Oracle Certified Professional, Java SE 7 Programmer</p></li>
+
+                            <hr>
+
+                            <li><p class="title"><i class="fa fa-building" aria-hidden="true"></i> Centre de formation TMI (Tunisie Micro Informatique)</p>
+                            <p><span class="date"><i class="fa fa-calendar-o" aria-hidden="true"></i>October 2015 </span></p>
+                            <p>Oracle Certified Associate Java SE 7 Programmer</p></li>
+
+
+                            <hr>
+
+                            <li><p class="title"><i class="fa fa-building" aria-hidden="true"></i> Institut Supérieur de Gestion de Gabès</p>
+                            <p><span class="date"><i class="fa fa-calendar-o" aria-hidden="true"></i>Juin 2015 </span></p>
+                            <p>Licence Fondamentale en informatique</p></li>
+                        </ul>
+
+
+                    </div>
+
+                </div>
       </div>
 
 
-</div>
-
-<div class="col-md-2 col-xs-4">
-<div  class="thumbnail border-circle slideanim iconskill">
-       <a href="#"  >
-          <img src="icon/CSS.png" alt="CSS" class="img-responsive icon-skill" style="width:100% ;padding:5px"
-		  data-toggle="tooltip" data-placement="top" title="Advanced level in CSS3">
-         
-        </a>
-      </div>
-</div>
-<div class="col-md-2 col-xs-4">
-<div  class="thumbnail border-circle slideanim iconskill">
-       <a href="#"  >
-          <img src="icon/JS.png"  class="img-responsive icon-skill" style="width:100% ;padding:5px"
-		  data-toggle="tooltip" data-placement="top" title="Advanced level in JavaScript">
-          
-        </a>
-      </div>
-</div>
-<div class="col-md-2 col-xs-4">
-<div  class="thumbnail border-circle slideanim iconskill">
-       <a href="#"  >
-          <img src="icon/JAVA.png"  class="img-responsive icon-skill" style="width:100% ;padding:5px"
-		  data-toggle="tooltip" data-placement="top" title="Advanced level in Java">
-          
-        </a>
-      </div>
-</div>
-<div class="col-md-2 col-xs-4 ">
-<div  class="thumbnail border-circle slideanim iconskill">
-       <a href="#"  >
-          <img src="icon/PHP.png"  class="img-responsive icon-skill" style="width:100% ;padding:5px"
-		  data-toggle="tooltip" data-placement="top" title="Advanced level in PHp">
-          
-        </a>
-      </div>
-	
-</div>
-<div class="col-md-2 col-xs-4 ">
-
-  <div  class="thumbnail border-circle slideanim iconskill">
-       <a href="#"  >
-          <img src="icon/JQUERY.png" class="img-responsive icon-skill" style="width:100% ;padding:5px"
-		  data-toggle="tooltip" data-placement="top" title="Advanced level in Jquery">
-          
-        </a>
-      </div>
-	  </div>
-	  
-	  
-<div class="col-md-2 col-xs-4">
-  <div  class="thumbnail border-circle slideanim iconskill">
-       <a href="#"  >
-          <img src="icon/BOOTSTRAP.png" class="img-responsive icon-skill" style="width:100% ;padding:5px"
-		  data-toggle="tooltip" data-placement="top" title="Advanced level in BOOTSTRAP">
-          
-        </a>
-      </div>
-	  </div>
-	  
-<div class="col-md-2 col-xs-4">
-  <div  class="thumbnail border-circle slideanim iconskill">
-       <a href="#"  >
-          <img src="icon/ANGULAR.png" class="img-responsive icon-skill" style="width:100% ;padding:5px"
-		  data-toggle="tooltip" data-placement="top" title="Basic level in AngularJs">
-          
-        </a>
-      </div>
-	  </div>
-	  
-<div class="col-md-2 col-xs-4">
-  <div  class="thumbnail border-circle slideanim iconskill">
-       <a href="#"  >
-          <img src="icon/SQL.png" class="img-responsive icon-skill" style="width:100% ;padding:5px"
-		  data-toggle="tooltip" data-placement="top" title="Advanced level in SQL">
-          
-        </a>
-      </div>
-	  </div>
-	  
-<div class="col-md-2 col-xs-4">
-  <div class="thumbnail border-circle slideanim iconskill">
-       <a href="#"  >
-          <img src="icon/ANDROID.png" class="img-responsive icon-skill" style="width:100% ;padding:10px"
-		  data-toggle="tooltip" data-placement="top" title="Advanced level in ANDROID">
-          
-        </a>
-      </div>
-	  </div>
-	  <div class="col-md-2 col-xs-4 ">
-  <div   class="thumbnail border-circle slideanim iconskill ">
-       <a href="#"  >
-          <img src="icon/JAVAEE.png" class="img-responsive icon-skill" style="width:100% ;padding:5px"
-		  data-toggle="tooltip" data-placement="top" title="Advanced level in JAVAEE">
-          
-        </a>
-      </div>
-	  </div>
-	  
-	  	  <div class="col-md-2 col-xs-4 ">
-  <div class="thumbnail border-circle slideanim iconskill ">
-       <a href="#"  >
-          <img src="icon/MYSQL.png" class="img-responsive icon-skill"  style="width:100% ;padding:5px"
-		  data-toggle="tooltip" data-placement="top" title="Advanced level in MYSQL">
-          
-        </a>
-      </div>
-	  </div>
-<!--/row-->	  
-</div>
-</div>
-
-<!--Work-->
-<div id="work" class="container-fluid ">
-<div class="row center-block">
-<div class="title-skill center-block">
-
-<span>  
-
- <p> Project <img src="icon/icon-work.png"> </p>
- 
-</span>
+    </div>
 
 </div>
 
-<div class="col-md-3 col-xs-6">
-<div id="img1" class="thumbnail iconwork">
-       
-          <img src="icon/work1.	PNG" class="img-responsive img-block" style="width:100% ;padding:2px">
-         
-		<div class="img-over">
-		<div class="text"><p>Build a Random Quote Machine<br></p>
-		<a href="http://codepen.io/atefzoiaidi/full/mRGeEJ/"target="_blank">Here Link</a></div>
-		
-		</div>
-      </div>
-</div>
-<div class="col-md-3 col-xs-6">
-<div id="img1" class="thumbnail iconwork">
-     
-          <img src="icon/work2.PNG" class="img-responsive img-block"alt="Mysql" style="width:100% ;padding:2px">
-          <div class="img-over">
-		<div class="text"><p>Build a Wikipedia Viewer <br></p>
-		<a href="http://codepen.io/atefzoiaidi/full/oYOjNm/"target="_blank">Here Link</a></div>
-		
-		</div>
-        
-      </div>
-</div>
-<div class="col-md-3 col-xs-6">
-<div id="img1" class="thumbnail iconwork">
-       
-          <img src="icon/work3.PNG" class="img-responsive img-block" style="width:100% ;padding:2px">
-          <div class="img-over">
-		<div class="text"><p>Build a Android Application<br></p>
-		</div>
-		
-		</div>
-        
-      </div>
-</div>
-<div class="col-md-3 col-xs-6">
-<div id="img1" class="thumbnail iconwork">
-       
-          <img src="icon/weather-app.PNG" class="img-responsive img-block" style="width:100% ;padding:2px">
-          <div class="img-over">
-		<div class="text"><p>Build a Weather App<br></p>
-		</div>
-		
-		</div>
-        
-      </div>
-</div>
-
-</div>
-
-</div>
-<!--/work-->
-<div id="contact" class="container-fluid ">
- <a href="#home" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
-<p>Get In Touch<p/>
+<footer>
+  <p>Trouvez-moi sur les  <a href="https://www.linkedin.com/in/atef-zoiaidi-010318aa/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>  </p>
+</footer>
 
 
-<div class="row">
-<div class="col-md-12">
-<div class="thumbnail icon-contact">
-       <a href="mailto:atef.zoiaidi@gmail.com" target="_blank"  >
-          <img src="icon/gmail.png" class="img-responsive"alt="Mysql" style="width:100% ">
-          
-        </a>
-      </div>
 
-
-<div class="thumbnail icon-contact ">
-       <a href="https://github.com/AtefZoiaidi" target="_blank" >
-          <img src="icon/github.png" alt="Mysql" style="width:100% ">
-          
-        </a>
-      </div>
-</div>
-<div class="owner">
-<p> Designed by Atef Zoiaidi</p>
-
-</div>
-
-</div>
-
-</div>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 </html>

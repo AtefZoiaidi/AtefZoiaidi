@@ -1,0 +1,36 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+hr{width:95%;}
+.stuts {margin-left:10px; font-size:13px;}
+.encours{color:orange}
+.finish{color:seagreen}
+body{width:100%;height:100vh;background-image: url('back.jpg')}
+.fluid-container{background-color: #F2F2F2;width:100%;min-height:100%;padding-bottom:10px;padding-top:10px}
+.flex{display:flex;flex-direction: row;width:100%;height:100%;justify-content: center;}
+.box-shadow{ box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);}
+.flex .left{width:25%;height:auto; background-color:white;padding-bottom:20px}
+.flex .left .row{width:100%;height:100%;padding:0;margin:0;}
+.flex .left .row div:nth-child(1){padding:0;margin:0;height:auto;width:100%;}
+.flex .left .row div:nth-child(1) img{position: relative;max-height:100%;width:100%;}
+.flex .left .row div:nth-child(1) span{position: absolute;bottom:10px;margin-left:20px;z-index:1;letter-spacing:1px;font-weight: bold}
+.flex .left .row div:nth-child(1)  .skill{font-size:17px;font-weight:bold}
+
+.flex .left .row div:nth-child(2){padding:0;margin:0;height:70%;width:100%;}
+.flex .left .row div:nth-child(2) p{padding:5px;margin:0;color:dimgrey;font-size:13px }
+.flex .left .row div:nth-child(2) .fa{margin-right:10px;color:dodgerblue;font-size:25px}
+.flex .left .row div:nth-child(2)  .skill{font-size:17px;font-weight:bold}
+.flex .left .row div:nth-child(2) .progress {width:95%;margin:auto;}
+.flex .left .row div:nth-child(2) .progress-bar{height:100%;}
+
+.flex .right{width:70%;height:98%;margin-left:15px}
+.flex .right .row{padding:0;margin:0;}
+.flex .right .row .col-md-12{background-color:white;margin-bottom:10px;padding:10px}
+.flex .right .fa{margin-right:10px;color:dodgerblue;font-size:25px}
+.flex .right   .fa-suitcase,.flex .right  .fa-certificate{font-size:40px}
+.flex .right   .work{font-size:25px;font-weight: bold;letter-spacing:1px}
+.flex .right .title{font-weight: bold;letter-spacing:1px}
+.flex .right .fa-building,.flex .right .fa-calendar-o{font-size: 15px;margin-left:15px;}
+.flex .right .date {margin-left: 30px;font-size:14px;}
+
+
+footer{text-align: center;background-color: dodgerblue;padding:10px;color:white}
+.fa-linkedin-square{color:white;font-size: 18px;}
